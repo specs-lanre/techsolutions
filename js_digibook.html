@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechCompany , 
+Your number 1 
+technology solution
+</title>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<script src="https://kit.fontawesome.com/5828e18407.js" crossorigin="anonymous"></script>
+
+<style>
+html,body{margin:0px;padding:0px;}
+.sample{background:#a01274;color:white;font-size:40px;
+text-align:center;padding:20px 5px;}
+
+
+.sideleft{float:left;height:500px;padding:0px 20px;
+width:250px;border:solid 4px lightgray;
+display:inline-block;
+}
+.sideright{float:left;padding:20px;
+margin:0px 20px;
+width:600px;display:inline-block;}
+
+.base{border:dotted 4px gray;padding:25px}
+</style>
+</head>
+<body>
+<div class="sample">
+&#9882; Js Digi Book  &#x2680;</div>
+
+
+<section  class="base">
+
+
+
+<div class="sideleft"></div>
+
+<div class="sideright"></div>
+<div style="clear:both;"></div>
+</section>
+<script>
+
+function addIt(){
+//alert("calculator !!")
+x = document.getElementById('nbr1').value
+y = document.getElementById('nbr2').value
+r=parseInt(x)+parseInt(y)
+z=x+" + "+y+" = "+r
+//alert(z)
+q=document.getElementById('display')
+q.innerHTML=z
+}
+
+
+function subIt(){
+//alert("calculator !!")
+x = document.getElementById('nbr1').value
+y = document.getElementById('nbr2').value
+r=parseInt(x)-parseInt(y)
+z=x+" - "+y+" = "+r
+//alert(z)
+q=document.getElementById('display')
+q.innerHTML=z
+}
+
+
+
+</script>
+</body>
+</html>

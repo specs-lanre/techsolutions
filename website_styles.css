@@ -1,0 +1,342 @@
+hyml,body{margin:0px;padding:0px;}
+
+.header_title{display:inline-block;
+margin-top:5px;
+margin-bottom:70px;
+padding-top:5px;
+padding-bottom:20px;
+width:100%;
+color:rgb(247,72,106);text-align:center;
+font-size:40px;font-weight:bolder;
+/*border-style:solid;
+border-width:2px;
+border-color:white;
+*/
+}
+
+.header_text{
+display:inline-block;margin:;width:100%;
+color:#30C9E3;
+text-align:center;font-size:25px;
+
+}
+
+.header_container{
+background:url('assets/images/1185.jpg');
+background-size:cover;
+
+}
+
+.header_cover{background:rgba(22,1,5,0.6);
+height:400px;padding:50px;
+
+}
+/*navigation */
+.navi_bar{background:black;}
+.utility span{color:white;font-size:20px;
+text-align:center;} 
+.span_right{display:inline-block;
+width:49%;
+text-align:right;
+border-width:0px;
+border-style:solid;
+border-color:white;
+}
+
+.span_right span{display:inline-block;margin-left:10px;
+margin-right:10px;}
+
+.span_left span{display:inline-block;margin-left:10px;
+margin-right:10px;}
+
+
+.span_left{display:inline-block;
+text-align:center;
+width:100%;
+border-width:0px;
+border-style:solid;
+border-color:white;}
+
+
+.navi_bar_div{text-align:center;padding:10px;}
+.navi_bar_div a{text-decoration:none;
+color:#D35706;font-size:25px;
+margin-left:10px;
+margin-right:10px;
+padding:5px;
+}
+.navi_bar_div a:hover{color:lightblue;}
+
+/* KEYPOINTS section*/
+.keypoint_section{
+background: #dfdfdf ;
+padding-left:10%;	
+}
+
+.keypoint_items{
+	margin:40px;
+	width:25%;
+	float:left;
+	height:200px;
+	display:inline-block;
+
+}
+.keypoint_items a{text-decoration:none;
+color:lightblue;padding:10px;
+border-bottom:solid 2px lightblue;
+}
+
+
+.keypoint_items a,.k_itemtext1 ,.k_itemtext2{
+margin-left:30px;
+height:30%;	
+}
+.k_itemtext1{color:lightgray}
+.k_itemtext2{color:white;
+width:30%;
+}
+.k_items1{
+	background: #44485c ;
+    
+}
+
+.k_items2{
+	background: #907326 ;
+}
+
+.k_items3{
+	background:  #101a12  ;
+}
+/* welcome section*/
+
+.welcome_section{
+	padding:0px;
+	margin-top:0px;
+margin-bottom:0px;
+border-width:4px;
+border-style:solid;
+border-color:black;
+
+}
+
+.welcome_section_img{
+background:url(assets/images/welcome.jpg);
+width:50%;
+background-size:cover;
+display:inline-block;
+height:550px;
+float:left;
+line-height:100px;
+}
+
+
+.welcome_section_2{padding:;
+background:url(assets/images/2.jpg);
+width:50%;
+background-size:cover;
+display:inline-block;
+height:550px;
+float:left;
+}
+
+.welcome_cover{
+background:rgba(0,0,0,0.8);
+padding-left:50px;
+height:100%;
+}
+
+
+.text1{padding:;
+margin:0px;
+color:#DBD3D3 ;
+font-size:18px;
+}
+.text2{
+margin:15px 0px;
+color:#d7141c;
+font-size:28px;
+line-height:30px;
+}
+
+.text3{
+	width:80%;
+	color:#ffffff;
+font-size:22px;text-align:;
+line-height:35px;
+word-spacing:2px;
+}
+
+/* VIDEO section*/
+.video_section{
+	background:#000000;
+	text-align:center;
+	padding:50px;
+	margin-top:5px;
+	
+}
+.introvideo{width:700px;}
+.video_title{color:#fff;
+padding:20px;
+margin:10px 0px;
+font-size:30px;text-align:center;}
+
+/* CORE SERVICES section*/
+.core{padding:50px;
+text-align:center;}
+
+
+
+.core_item{width:40%;
+display:inline-block;
+height:400px;margin:20px;
+border:solid lightblue 2px;
+}
+
+.core_item a{width:40%;
+display:inline-block;
+padding:10px;
+border:solid lightblue 2px;
+color:lightblue;
+font-size:24px;
+text-align:center;
+}
+
+
+.core_image{width:95%;
+display:inline-block;
+height:95%;
+background:rgba(1,0,0,0.7)
+}
+.core_image p{
+height:45%;color:white;
+font-size:40px;
+background:rgba(1,0,0,0.5)
+}
+/* getintouch section*/
+.getintouch{text-align:center;
+margin:50px 0px;}
+.getintouch .title{text-align:center;
+margin:20px 0px;}
+.getintouch input{
+	border:solid 2px #f56d3b; 
+padding:10px;}
+.submit{background:white;color:#f56d3b;
+width:140px;
+border-radius:25px;
+}
+.select{background:white;color:#f56d3b;
+width:140px;border:solid 2px #f56d3b;
+padding:10px;
+}
+
+/* footer section*/
+footer{
+	background:black;
+
+}
+.footer_div{border-width:1px;
+border-color:white;
+border-style:solid;
+display:inline-block;
+width:30%;
+height:250px;margin-left:20px;
+float:left;
+text-align:center;
+}
+.footer_div h5{color:#D2272D;text-align:center;
+font-size:25px;}
+.footer_links{display:inline-block;
+width:90%;}
+.footer_links a{display:inline-block;
+width:80%;padding-left:5px; margin-top:5px;
+text-decoration:none;color:white;
+font-size:20px;
+}
+
+.footer_social{display:inline-block;
+width:90%;}
+
+.footer_social a{display:inline-block;
+width:80%;padding-left:5px; margin-top:5px;
+text-decoration:none;color:white;
+font-size:20px;
+}
+
+.copyright{text-align:center;
+color:white; padding:25px;}
+
+/*boostrap assist*/
+.cblu{border:solid 1px blue;}
+.cred{border:solid 1px red;}
+.cpurp{border:solid 1px purple;}
+.about_img{background:url(assets/images/facial.jpg);
+height:250px;
+
+}
+/*media query*/
+
+@media screen and (max-width: 900px){
+	
+
+.navi_bar_div a{
+font-size:20px;margin-left:5px;margin-right:5px;
+}	
+.header_cover{padding:20px;}
+
+.keypoint_section{padding-left:5%;}
+
+.keypoint_items{margin:20px;width:80%;float:none;}
+
+.k_itemtext2{width:80%;}	
+.keypoint_items a{font-size:25px;}
+
+
+.welcome_section_img{width:100%;height:450px;float:none}
+.welcome_section_2{width:100%;height:auto;float:none}
+.welcome_cover{background:rgba(0,0,0,0.7);}
+.welcome_section_2 a{
+	text-decoration:none;color:lightgray;
+	padding:5px;width:50%;font-size:24px;
+margin:20px 5px;display:inline-block;}
+
+
+.text1{padding:;
+margin:0px;
+color:#DBD3D3 ;
+font-size:18px;
+}
+.text2{
+margin:15px 0px;
+color:#d7141c;
+font-size:28px;
+line-height:30px;
+}
+
+.text3{
+	width:80%;
+	color:#ffffff;
+font-size:22px;text-align:;
+line-height:35px;
+word-spacing:2px;
+}
+
+.video_section{	padding:5px;}
+.introvideo{width:400px;}
+
+.core{padding:10px;}
+.core_item{width:95%;margin:10px;}
+
+
+.getintouch input{width:90%;padding:11px;margin:5px 0px;}
+.submit{width:90%;padding:11px;margin:5px 0px;}
+.select{width:94%;padding:11px;margin:5px 0px;}
+
+
+.footer_div{width:80%;
+height:250px;
+margin:30px;
+float:none;text-align:center;
+}
+
+	
+}
